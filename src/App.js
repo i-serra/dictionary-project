@@ -9,7 +9,7 @@ export default function App() {
      Dictionary App
      </header>
      <main>
-       <Dictionary/>
+       <Dictionary />
      </main>
      <footer>Coded by Inês Serra</footer>
      </div>
