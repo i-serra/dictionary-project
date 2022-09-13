@@ -1,7 +1,17 @@
+.App {
+  font-family: 'Cormorant Garamond', serif;
+}
+
 .App header {
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.App h5{
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 
 .App footer{
