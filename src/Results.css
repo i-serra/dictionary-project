@@ -1,0 +1,15 @@
+.Results{
+    margin: 0;
+}
+
+.Results h1{
+    font-size: 70px;
+    margin-left: 45px;
+    margin-top: 18px;
+}
+
+.Results .phonetics{
+    position: absolute;
+    top: 485px;
+    left: 228px;
+}

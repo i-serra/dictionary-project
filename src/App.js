@@ -9,14 +9,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header>
-     Dictionary
+      <header className="rounded shadow">
+        <h2>Dictionary</h2>
      <h5>What word would you like to look up?</h5>
      </header>
      <main>
        <Dictionary />
      </main>
-     <footer>Coded by Inês Serra</footer>
+     <footer>This project was coded by <a href="https://golden-pasca-71ada2.netlify.app/">Inês Serra</a> and is <a href="https://github.com/i-serra/dictionary-project">open-sourced on GitHub</a></footer>
      </div>
     </div>
   );

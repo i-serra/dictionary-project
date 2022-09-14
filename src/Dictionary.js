@@ -24,7 +24,7 @@ export default function Dictionary(){
 
     return <div className="Dictionary">
         <form className="text-center" onSubmit={search}>
-            <input type="search" onChange={handleKeywordChange}/>
+            <input type="search" onChange={handleKeywordChange} className="shadow"/>
             <a href="#0" onClick={search}><i className="fa-solid fa-magnifying-glass search-button"></i></a>
         </form>
          <Results results={results} />

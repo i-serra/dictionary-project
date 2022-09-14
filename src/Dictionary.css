@@ -1,8 +1,11 @@
 .Dictionary input{
-    width: 100%;
+    width: 85%;
     padding: 10px;
+    position: relative;
+    top: -95px;
     font-size: 20px;
-    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
 }
 
 input[type="search"]::-webkit-search-decoration,
@@ -11,9 +14,9 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .Dictionary .search-button{
-    color: rgba(116, 116, 116, 0.534);
+    color: #ddd;
     font-size: 34px;
     position: absolute;
-    right: 175px;
-    top: 194px;
+    right: 261px;
+    top: 227px;
 }
