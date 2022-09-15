@@ -1,0 +1,7 @@
+.Synonyms li{
+    list-style: none;
+    display: inline;
+    margin-right: 55px;
+    padding: 6px 10px;
+    margin-left: -35px;
+}
