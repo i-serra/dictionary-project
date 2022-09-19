@@ -10,7 +10,7 @@ export default function Photos(props){
                 {props.photos.map(function(photo, index){
                     return (
                             <div className="col-12">
-                    <a href={photo.src.original} rel="noreferer nonopener" target="_blank" key={index}>
+                    <a href={photo.src.original} rel="noreferrer nonopener" target="_blank" key={index}>
                         <img src={photo.src.tiny} className="shadow rounded"/>
                     </a>
                     </div>
